@@ -1,0 +1,997 @@
+/* nunito-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/nunito-sans-v18-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* nunito-sans-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/nunito-sans-v18-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* nunito-sans-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/nunito-sans-v18-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* nunito-sans-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/nunito-sans-v18-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* nunito-sans-200 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 200;
+  src: url('../fonts/nunito-sans-v18-latin-200.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* nunito-sans-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/nunito-sans-v18-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* montserrat-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/montserrat-v30-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: #FFFFFF;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    margin: 0 auto;
+    background-color: none;
+    position: fixed;
+    /* top: 0;
+    left: 0; */
+    width: 100%;
+    z-index: 5;
+}
+
+.header__menu {
+    width: 100%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: start;
+    margin-top: 70px;
+    position: fixed;
+}
+
+.header__logo {
+    margin-left: 150px;
+}
+
+.header__list {
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.header__item {
+    margin-left: 54px;
+}
+
+/* .header__item:last-child{
+    margin-right: 0;
+} */
+
+.header__link {
+    font: normal 400 14px 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    opacity: .80;
+}
+
+.header__communication {
+    display: flex;
+    /* margin-left: clamp(60px, 31vw, 596px); */
+    margin-left: 596px;
+}
+
+.communication__messengers {
+    margin-right: 36px;
+}
+
+.header__communication-whatsapp {
+    margin-left: 20px;
+}
+
+.header__link:hover,
+.header__link:focus,
+.header__link:active,
+.communication__icon:hover,
+.communication__icon:focus,
+.communication__icon:active,
+.intro__button:hover,
+.intro__button:focus,
+.intro__button:active {
+    opacity: .50;
+}
+
+/* heared styles end */
+
+/* intro styles start */
+
+.intro {
+    /* height: 100vh; */
+    max-width: 100%;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+}
+
+.intro__background-green {
+    width: 900px;
+    height: 759px;
+    background-color: rgba(35, 42, 17, 1);
+    border-radius: 45px;
+    margin-top: 40px;
+    margin-left: 48px;
+    z-index: 1;
+}
+
+.intro__background-pic {
+    width: 1044px;
+    height: 759px;
+    background: url(../img/introBackPic.png) no-repeat right;
+    background-size: cover;
+    border-radius: 45px;
+    position: absolute;
+    z-index: 2;
+    right: 46px;
+    margin-top: 40px;
+    /* margin-right: 46px; */
+}
+
+.intro__mobile-overlay {
+    display: none;
+}
+
+.button__menu-mobile {
+    display: none;
+}
+
+.intro__info {
+    margin: 145px 102px;
+}
+
+.intro__title {
+    font: normal 400 56px 'Nunito Sans', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.intro__subtitle {
+    font: normal 200 24px 'Nunito Sans', sans-serif;
+    margin-bottom: 64px;
+}
+
+.button__bid {
+    margin-right: 15px;
+}
+
+/* intro styles end */
+
+/* main start */
+
+
+.main {
+    max-width: 1920px;
+    width: 100%;
+
+}
+
+.main__preview {
+    display: flex;
+    margin-top: 90px;
+    position: relative;
+    margin-bottom: 116px;
+}
+
+.scroll__container {
+    display: none;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 6px;
+    -webkit-overflow-scrolling: touch;
+}
+
+.scroll__card {
+    flex: 0 0 40%;
+    /* ширина карточки = 80% экрана */
+    scroll-snap-align: start;
+    padding: 0;
+}
+
+
+.about-company__title {
+    font: normal 400 40px 'Nunito Sans', sans-serif;
+    color: black;
+    text-transform: uppercase;
+}
+
+.about-company__subtitle {
+    font: normal 400 24px 'Nunito Sans', sans-serif;
+    color: black;
+    max-width: 960px;
+    margin-top: 24px;
+}
+
+.perview__block {
+    padding-left: 156px;
+}
+
+.preview__cards {
+    display: flex;
+}
+
+.card {
+    position: relative;
+    z-index: 1;
+}
+
+.card:last-child {
+    z-index: 3;
+}
+
+.card__1 {
+    margin-top: 61px;
+
+}
+
+.card__2 {
+    margin-top: 4px;
+    margin-left: 244px;
+
+}
+
+.card__3 {
+    margin-top: 136px;
+    margin-left: 140px;
+}
+
+
+
+.preview__house {
+    position: absolute;
+    left: 0%;
+    margin-left: 30px;
+    z-index: 2;
+}
+
+.preview__info {
+    margin-top: 56px;
+    margin-left: 150px;
+}
+
+.main___solutions {
+    width: 1824px;
+    height: 788px;
+    background-color: #232A11;
+    border-radius: 45px;
+    margin-left: 38px;
+    margin-right: 38px;
+}
+
+.solutions {
+    display: flex;
+    align-items: center;
+    margin-left: 102px;
+    padding-top: 107px;
+
+}
+
+.solutions__title {
+    font: normal 400 40px 'Nunito Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.solutions__button {
+    margin-left: 704px;
+}
+
+.solutions__button1 {
+    margin-right: 8px;
+}
+
+.solutions__carousel {
+    display: flex;
+    gap: 27px;
+    margin-top: 64px;
+    margin-left: 102px;
+    position: relative;
+}
+
+.carousel__arrows {
+    display: flex;
+    position: absolute;
+    right: 132px;
+    top: 100%;
+    margin-top: 32px;
+}
+
+.carousel__arrows img:hover {
+    opacity: .5;
+}
+
+.header__menu--scrolled {
+    background: #FCFCF49E;
+    transition: 0.3s;
+    backdrop-filter: blur(8.3px);
+    -webkit-backdrop-filter: blur(8.3px);
+}
+
+.request__block {
+    width: 1824px;
+    height: 733px;
+    background-color: rgba(35, 42, 17, 1);
+    border-radius: 45px;
+    margin: 40px auto;
+    display: flex;
+    margin-bottom: 153px;
+}
+
+.request__form {
+    margin-top: 80px;
+    margin-left: 102px;
+}
+
+.request_title {
+    font: normal 300 40px 'Nunito Sans', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.request__subtitle {
+    font: normal 100 24px 'Nunito Sans', sans-serif;
+    margin-bottom: 48px;
+}
+
+.request__field {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.request__agreement-check {
+    margin-right: 20px;
+    align-self: flex-start;
+}
+
+.privacy {
+    font: normal 400 14px 'Montserrat', sans-serif;
+    color: #FFFFFF80;
+}
+
+.privacy-green {
+    color: rgba(116, 118, 82, 1);
+}
+
+.request__agreement {
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.request__field-name,
+.request__field-number {
+    width: 504px;
+    padding: 22px 24px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    background-color: #fff;
+    color: #666666;
+    height: 64px;
+    font: normal 400 20px 'Montserrat', sans-serif;
+}
+
+.request__house {
+    margin: 80px 258px;
+}
+
+.footer__background {
+    width: 100%;
+    height: 435px;
+    background: #0E0E0E;
+}
+
+.footer__container {
+    width: 1560px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 56px;
+    padding-left: 180px;
+    gap: 260px;
+}
+
+/* 
+.footer__column {
+  flex: 1 1 0;
+  color: rgba(255, 255, 255);
+} */
+
+.footer__logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.footer__privacy {
+    font: 200 16px 'Montserrat', sans-serif;
+    color: rgba(255, 255, 255);
+    margin-bottom: 48px;
+    display: block;
+    opacity: 50%;
+    text-decoration: none;
+    min-width: 270px;
+}
+
+.footer__socials {
+    margin-top: 32px;
+    display: flex;
+    gap: 24px;
+}
+
+.footer__title {
+    font: 200 20px 'Montserrat', sans-serif;
+    margin-bottom: 24px;
+}
+
+.footer__nav {
+    list-style: none;
+    color: rgba(255, 255, 255);
+    opacity: 50%;
+    font: 200 16px 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footer__nav a {
+    color: rgba(255, 255, 255);
+    text-decoration: none;
+}
+
+.footer__contacts,
+.footer__worktime {
+    font: 200 16px 'Montserrat', sans-serif;
+    color: rgba(255, 255, 255);
+    opacity: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    min-width: 256px;
+}
+
+@media (max-width: 1280px) {
+    .intro__background-green {
+        width: 580px;
+        height: 490px;
+        margin-top: 30px;
+    }
+
+    .intro__background-pic {
+        width: 671px;
+        height: 490px;
+        margin-top: 30px;
+    }
+
+    .header__menu {
+        margin-top: 42px;
+    }
+
+    .header__logo {
+        margin-left: 110px;
+    }
+
+    .header__logo-pic {
+        width: 130px;
+        height: 22px;
+    }
+
+    .header__item {
+        margin-left: 23px;
+    }
+
+    .header__link {
+        font-size: 12px;
+    }
+
+    .header__communication {
+        margin-left: 362px;
+    }
+
+    .communication__messengers {
+        margin-right: 26px;
+    }
+
+    .header__communication-whatsapp {
+        margin-right: 14px;
+    }
+
+    .communication__icon {
+        width: 32px;
+        height: 32px;
+    }
+
+    .communication-number {
+        width: 170px;
+        height: 32px;
+    }
+
+    .intro__title {
+        font-size: 36px;
+        margin-bottom: 16px;
+    }
+
+    .intro__subtitle {
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+
+    .intro__info {
+        margin: 90px 0px 0px 60px;
+    }
+
+    .button__bid {
+        margin-right: 12px;
+    }
+
+    .intro__button {
+        width: 190px;
+        height: 40px;
+    }
+
+    /* intro styles end */
+
+    /* main start */
+
+    .main__preview {
+        margin-top: 33px;
+    }
+
+    .about__company {
+        margin-left: 40px;
+        margin-bottom: 100px;
+    }
+
+    .about-company__title {
+        font-size: 36px;
+    }
+
+    .about-company__subtitle {
+        font-size: 24px;
+    }
+
+    .main__preview-house {
+        width: 882px;
+        height: 388px;
+    }
+
+    .perview__block {
+        padding-left: 71px;
+    }
+
+    .card__1 {
+        margin-top: 6px;
+    }
+
+    .card__2 {
+        margin-left: 94px;
+        margin-top: -52px;
+    }
+
+    .card__3 {
+        margin-top: 66px;
+        margin-left: 124px;
+    }
+
+    .preview__info {
+        margin-top: 166px;
+    }
+
+    .preview__info-card {
+        width: 380px;
+        height: 374px;
+        margin-left: -124px;
+        margin-right: 50px;
+    }
+
+    /* main___solutions */
+
+    .main___solutions {
+        width: 1190px;
+        height: 509px;
+        margin: 0 50px;
+    }
+
+    .solutions {
+        margin-left: 60px;
+        padding: 64px 0 0 0;
+    }
+
+    .solutions__title {
+        font-size: 36px;
+        min-width: 370px;
+    }
+
+    .solutions__button {
+        margin-left: 360px;
+    }
+
+    .solutions__button1,
+    .solutions__button2 {
+        margin: 0;
+        width: 152px;
+        height: 25px;
+    }
+
+    .solutions__carousel {
+        margin-left: 60px;
+        gap: 18px;
+        margin-top: 32px;
+    }
+
+    .carousel__pic1,
+    .carousel__pic2,
+    .carousel__pic3,
+    .carousel__pic4 {
+        width: 245px;
+        height: 248px;
+    }
+
+    .carousel__arrows {
+        margin-top: 24px;
+        right: 90px;
+    }
+
+    .carousel__arrowLeft,
+    .carousel__arrowRight {
+        width: 42px;
+        height: 42px;
+    }
+
+    /* request__block */
+
+    .request__block {
+        width: 1180px;
+        height: 521px;
+    }
+
+    .request__form {
+        margin-top: 65px;
+        margin-left: 60px;
+    }
+
+    .request_title {
+        font-size: 36px;
+        margin-bottom: 16px;
+    }
+
+    .request__subtitle {
+        font-size: 18px;
+        max-width: 380px;
+        margin-bottom: 28px;
+    }
+
+    .request__field {
+        gap: 14px;
+    }
+
+    .request__field-name,
+    .request__field-number {
+        width: 420px;
+        height: 48px;
+    }
+
+    .privacy {
+        min-width: 420px;
+        font-size: 14px;
+    }
+
+    .request__agreement {
+        margin-bottom: 10px;
+    }
+
+    .request__button-size {
+        width: 420px;
+    }
+
+    .request__house {
+        margin: 80px 0px 0px 20px;
+    }
+
+    .request__house-size {
+        width: 596px;
+        height: 392px;
+    }
+
+    /* footer */
+
+    .footer__container {
+        gap: 130px;
+        width: 1280px;
+        padding-left: 50px;
+        padding-top: 50px;
+        justify-content: flex-start;
+    }
+
+    .footer__worktime {
+        min-width: 0;
+    }
+}
+
+
+
+@media (max-width: 560px) {
+
+    .header__nav,
+    .communication__messengers,
+    .intro__background-pic {
+        display: none;
+    }
+
+    .scroll__container {
+        display: flex;
+    }
+
+    .header__menu {
+        margin-top: 24px;
+    }
+
+    .header__logo {
+        margin-left: 20px;
+    }
+
+    .header__communication {
+        margin-left: 0;
+    }
+
+    .header__communication-number {
+        margin-left: 180px;
+    }
+
+    .intro__background-green {
+        margin: 0;
+        border-radius: 0 0 30px 30px;
+        width: 560px;
+        height: 473px;
+    }
+
+    .intro__info {
+        margin-top: 104px;
+        margin-left: 20px;
+        z-index: 15;
+        position: relative;
+    }
+
+    .intro__subtitle {
+        font-size: 14px;
+    }
+
+    .intro__mobile-overlay {
+        display: flex;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: 1;
+    }
+
+    .header__communication {
+        align-items: center;
+    }
+
+    .button__menu-mobile {
+        display: block;
+        margin-left: 8px;
+        height: 32px;
+    }
+
+    .preview__info {
+        display: none;
+    }
+
+    .perview__block {
+        padding-left: 20px;
+    }
+
+    .about__company {
+        margin-left: 0;
+        margin-top: 54px;
+    }
+
+    .about-company__title {
+        font-size: 26px;
+    }
+
+    .about-company__subtitle {
+        margin-top: 12px;
+        font-size: 16px;
+        max-width: 432px;
+    }
+
+    .perview__block {
+        max-width: 560px;
+    }
+
+    .preview__house {
+        margin-left: 0;
+        margin-top: -30px;
+    }
+
+    .main__preview-house {
+        width: 580px;
+        height: 274px;
+        margin-left: -10px;
+        top: 0;
+    }
+
+    .card__1,
+    .card__2,
+    .card__3 {
+        width: 144px;
+        height: 168px;
+    }
+
+    .card__1 {
+        margin-top: -20px;
+        margin-left: 35px;
+    }
+
+    .card__2 {
+        margin-left: 78px;
+    }
+
+    .card__3 {
+        margin-left: 10px;
+        margin-top: 60px;
+    }
+
+    .preview__cards {
+        margin-top: -30px;
+        margin-left: -30px;
+    }
+
+    .main__preview {
+        margin-bottom: 40px;
+    }
+
+    .main___solutions {
+        width: 560px;
+        height: 815px;
+        margin-left: 0;
+    }
+
+    .solutions {
+        margin-left: 20px;
+    }
+
+    .solutions__title {
+        font-size: 26px;
+    }
+
+    .solutions__button {
+        margin-left: -380px;
+        margin-top: 100px;
+    }
+
+    .solutions__carousel {
+        margin-left: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
+        gap: 10px;
+    }
+
+    .carousel__arrowLeft {
+        margin-right: 310px;
+    }
+
+    .request__block {
+        width: 560px;
+        height: 730px;
+        margin-bottom: 95px;
+    }
+
+    .request__form {
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+
+    .request__house {
+        margin: 0;
+        margin-top: 390px;
+        margin-left: -530px;
+    }
+
+    .request__house-size {
+        width: 520px;
+        height: 318px;
+    }
+
+    .request__field-name {
+        width: 250px;
+    }
+
+    .request__field-number {
+        width: 250px;
+        margin-left: 280px;
+        margin-top: -60px;
+    }
+
+    .request__button-size {
+        margin-left: 50px;
+    }
+
+    .footer__background {
+        width: 560px;
+        height: 456px;
+    }
+
+    .footer__tifooter__column,
+    .footer__title,
+    .footer__nav {
+        display: none;
+    }
+
+    .footer__container {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer__logo {
+        margin-left: 50px;
+    }
+
+    .footer__privacy {
+        margin-left: 30px;
+    }
+
+    .footer__socials {
+        margin-left: 90px;
+    }
+}
