@@ -1,59 +1,78 @@
 /* nunito-sans-regular - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Nunito Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/nunito-sans-v18-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/nunito-sans-v18-latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
 /* nunito-sans-500 - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Nunito Sans';
-  font-style: normal;
-  font-weight: 500;
-  src: url('../fonts/nunito-sans-v18-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/nunito-sans-v18-latin-500.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
 /* nunito-sans-600 - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Nunito Sans';
-  font-style: normal;
-  font-weight: 600;
-  src: url('../fonts/nunito-sans-v18-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/nunito-sans-v18-latin-600.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
 /* nunito-sans-700 - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Nunito Sans';
-  font-style: normal;
-  font-weight: 700;
-  src: url('../fonts/nunito-sans-v18-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/nunito-sans-v18-latin-700.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
 /* nunito-sans-200 - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Nunito Sans';
-  font-style: normal;
-  font-weight: 200;
-  src: url('../fonts/nunito-sans-v18-latin-200.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/nunito-sans-v18-latin-200.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
 /* nunito-sans-300 - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Nunito Sans';
-  font-style: normal;
-  font-weight: 300;
-  src: url('../fonts/nunito-sans-v18-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/nunito-sans-v18-latin-300.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /* montserrat-regular - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/montserrat-v30-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/montserrat-v30-latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 
@@ -187,6 +206,10 @@ a {
 }
 
 .intro__mobile-overlay {
+    display: none;
+}
+
+.intro__call-overlay {
     display: none;
 }
 
@@ -365,6 +388,7 @@ a {
 }
 
 .request__block {
+    position: relative;
     width: 1824px;
     height: 733px;
     background-color: rgba(35, 42, 17, 1);
@@ -377,6 +401,8 @@ a {
 .request__form {
     margin-top: 80px;
     margin-left: 102px;
+    width: 1824px;
+    height: 733px;
 }
 
 .request_title {
@@ -386,6 +412,7 @@ a {
 }
 
 .request__subtitle {
+    width: 490px;
     font: normal 100 24px 'Nunito Sans', sans-serif;
     margin-bottom: 48px;
 }
@@ -428,7 +455,9 @@ a {
 }
 
 .request__house {
-    margin: 80px 258px;
+    position: absolute;
+    right: 102px;
+    bottom: 70px;
 }
 
 .footer__background {
@@ -742,7 +771,7 @@ a {
     }
 
     .request__house {
-        margin: 80px 0px 0px 20px;
+        right: 50px;
     }
 
     .request__house-size {
@@ -907,6 +936,7 @@ a {
     }
 
     .solutions {
+        padding: 0;
         margin-left: 20px;
     }
 
@@ -927,8 +957,24 @@ a {
         gap: 10px;
     }
 
+    .carousel__arrowLeft,
+    .carousel__arrowRight {
+        width: 62px;
+        height: 62px;
+    }
+
     .carousel__arrowLeft {
-        margin-right: 310px;
+        margin-left: 50px;
+    }
+
+    .carousel__arrowRight {
+        margin-left: 270px;
+    }
+
+    .request__field {
+        display: block;
+        justify-content: center;
+        flex-direction: row;
     }
 
     .request__block {
@@ -944,8 +990,9 @@ a {
 
     .request__house {
         margin: 0;
-        margin-top: 390px;
-        margin-left: -530px;
+        margin-top: 40px;
+        bottom: 40px;
+        right: 20px;
     }
 
     .request__house-size {
@@ -959,8 +1006,11 @@ a {
 
     .request__field-number {
         width: 250px;
-        margin-left: 280px;
-        margin-top: -60px;
+        margin-left: 10px;
+    }
+
+    .request__agreement {
+        margin-top: 10px;
     }
 
     .request__button-size {
@@ -993,5 +1043,282 @@ a {
 
     .footer__socials {
         margin-left: 90px;
+    }
+}
+
+@media (max-width: 360px) {
+
+    .communication-number {
+        display: none;
+    }
+
+    .intro__call-overlay {
+        display: block;
+    }
+
+    .intro__background-green {
+        width: 360px;
+        height: 438px;
+    }
+
+    .intro__mobile-overlay {
+        width: 294px;
+        height: 171px;
+    }
+
+    .intro__title {
+        font-size: 24px;
+        width: 320px;
+        height: 100px;
+        margin-bottom: 8px;
+    }
+
+    .intro__subtitle {
+        font-size: 14px;
+        margin-bottom: 24px;
+    }
+
+    .intro__button {
+        width: 156px;
+        height: 40px;
+    }
+
+    .button__bid {
+        margin-right: 8px;
+    }
+
+    .intro__info {
+        margin-top: 96px;
+    }
+
+    .header__menu {
+        margin-top: 16px;
+    }
+
+    .header__logo-pic {
+        width: 166px;
+        height: 28px;
+    }
+
+    .communication__messengers {
+        width: 180px;
+    }
+
+    .header__communication {
+        width: 160px;
+        margin-right: 20px;
+    }
+
+    .header__communication-number {
+        padding: 0;
+        margin: 0;
+        width: 180px;
+    }
+
+    .header__menu {
+        width: 320px;
+    }
+
+    .button__menu-mobile {
+        width: 40px;
+        height: 40px;
+    }
+
+    .main {
+        width: 360px;
+    }
+
+    .header__menu {
+        width: 360px;
+    }
+
+    .main__preview {
+        margin-bottom: 32px;
+    }
+
+    .scroll__card {
+        width: 260px;
+        height: 90px;
+    }
+
+    .about-company__title {
+        font-size: 24px;
+    }
+
+    .about-company__subtitle {
+        margin-top: 8px;
+        width: 320px;
+        font-size: 12px;
+    }
+
+    .main__preview-house {
+        width: 370px;
+        height: 168px;
+        margin-left: -20px;
+    }
+
+    .about__company {
+        margin-bottom: 80px;
+    }
+
+    .card__1,
+    .card__2,
+    .card__3 {
+        width: 89px;
+        height: 104px;
+    }
+
+    .card__1 {
+        margin-left: 20px;
+    }
+
+    .card__2 {
+        margin-left: 42px;
+        margin-top: -38px;
+    }
+
+    .card__3 {
+        margin-left: 8px;
+        margin-top: 34px;
+    }
+
+    .main__preview {
+        margin-bottom: 30px;
+    }
+
+    .main___solutions {
+        width: 360px;
+        height: 593px;
+        border-radius: 20px;
+    }
+
+    .solutions {
+        padding-top: 34px;
+        align-items: flex-start;
+        display: block;
+    }
+
+    .solutions__title {
+        font-size: 24px;
+    }
+
+    .solutions__button {
+        margin-left: 0;
+        margin-top: 8px;
+    }
+
+    .solutions__button1,
+    .solutions__button2 {
+        width: 152px;
+        height: 32px;
+    }
+
+    .solutions__carousel {
+        display: flex;
+        gap: 20px;
+    }
+
+    .carousel__pic1,
+    .carousel__pic2,
+    .carousel__pic3,
+    .carousel__pic4 {
+        width: 320px;
+        height: 345px;
+    }
+
+    .carousel__arrows {
+        right: 0;
+        margin: 12px 20px;
+    }
+
+    .carousel__arrowLeft,
+    .carousel__arrowRight {
+        width: 62px;
+        height: 62px;
+    }
+
+    .carousel__arrowRight {
+        margin-left: 0;
+    }
+
+    .carousel__arrowLeft {
+        margin-right: 196px;
+    }
+
+    .request__block {
+        width: 360px;
+        height: 607px;
+        border-radius: 20px;
+    }
+
+    .request_title {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .request__subtitle {
+        font-size: 12px;
+        max-width: 260px;
+        margin-bottom: 22px;
+    }
+
+    .request__field {
+        display: table-row-group;
+    }
+
+    .request__field-name,
+    .request__field-number {
+        width: 320px;
+        height: 40px;
+    }
+
+    .request__field-number {
+        margin-left: 0;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+
+    .request__agreement-check {
+        margin-right: 8px;
+    }
+
+    .privacy {
+        font-size: 10px;
+        min-width: 200px;
+    }
+
+    .request__button-size {
+        margin-left: 0;
+        width: 320px;
+        height: 40px;
+    }
+
+    .request__house {
+        display: flex;
+        margin-left: 0;
+        margin-top: 40px;
+    }
+
+    .request__house-size {
+        width: 324px;
+        height: 195px;
+    }
+
+    .footer__background {
+        width: 360px;
+        height: 400px;
+    }
+
+    .footer__container {
+        align-items: baseline;
+        gap: 10;
+        padding-left: 0;
+        width: 360px;
+        height: 300px;
+        justify-content: flex-start;
+    }
+
+    .footer__column {
+        margin-left: 26px;
     }
 }
